@@ -1,3 +1,4 @@
+# WORK IN PROGRESS
 # Neural Network from Scratch – MNIST Digit Classifier
 
 This project implements a basic feedforward neural network from scratch using **NumPy** for handwritten digit classification with the **MNIST** dataset. It includes support for various activation functions and training visualizations (cost, accuracy, prediction distribution).
