@@ -238,6 +238,6 @@ PARAMS = [X_train, y_train, X_test, y_test, "relu", 10, [128, 32]]
 nn_relu = NN(*PARAMS)
 epochs_relu = 200
 lr_relu = 0.003
-nn_relu.fit(X_train, y_train, lr=lr_relu, epochs=epochs_relu)
+nn_relu.fit(lr=lr_relu, epochs=epochs_relu)
 nn_relu.plot_cost(lr_relu)
 #a
